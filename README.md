@@ -4,12 +4,12 @@ Linux disk images, kernels and scripts for the Xiaomi Pad 6 tablet (codename: pi
 # Ubuntu Linux on the Xiaomi Pad 6 (pipa)
 ![Ubuntu Linux on the Xiaomi Pad 6 (pipa)](ubuntu-pipa.png)
 ## THANKS
-First, I would like to thank the following people for their excellent work in developing the Linux kernel for the Xiaomi Pad 6. Without them this would all not be possible:
- - Dominik Sitarski <https://github.com/domin746826>
- - vipaoL <https://github.com/vipaoL>
+First, I would like to thank the following people (in no particular order) for their excellent work in developing the Linux kernel for the Xiaomi Pad 6. Without them this would all not be possible:
  - adomerle <https://github.com/adomerle>
- - Danila Tikhonov <https://github.com/JIaxyga>
+ - vipaoL <https://github.com/vipaoL>
  - luka177 <https://github.com/luka177>
+ - Dominik Sitarski <https://github.com/domin746826>
+ - Danila Tikhonov <https://github.com/JIaxyga>
  - Teguh Sobirin <https://github.com/tjstyle>
  - lujianhua <https://github.com/lujianhua>
  - map220v <https://github.com/map220v>
