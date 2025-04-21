@@ -3,7 +3,7 @@ Linux disk images, kernels and scripts for the Xiaomi Pad 6 tablet (codename: pi
 
 # NEWS
  - 2025.04.21: I have uploaded "Fedora 42" for pipa!  
- - Install instructions (see below) apply accordingly i.e. you find the files in folder "2025.04.21-Fedora42" on my mega.nz page, root image name is "fedora-42-pipa.img.xz" and package manager in Fedora is "dnf" instead of "apt".  
+   Install instructions (see below) apply accordingly i.e. you find the files in folder "2025.04.21-Fedora42" on my mega.nz page, root image name is "fedora-42-pipa.img.xz" and package manager in Fedora is "dnf" instead of "apt".  
    Continue with instructions below, please!
   
 # Ubuntu Linux on the Xiaomi Pad 6 (pipa)
