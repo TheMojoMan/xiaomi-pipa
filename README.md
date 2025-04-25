@@ -19,6 +19,7 @@ First, I would like to thank the following people (in no particular order) for t
  - lujianhua <https://github.com/lujianhua>
  - map220v <https://github.com/map220v>
  - maverickjb <https://github.com/maverickjb>
+ - Users rmux, nixxiz, nikroks at pipa telegram groups
 
 Their work is based upon the shoulders of giants. So, thanks to the Linux kernel team, the Ubuntu team, the Gnome and KDE team and all the people that contributed to the many programs that are used in this distribution!
 
