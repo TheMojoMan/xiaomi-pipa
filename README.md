@@ -5,6 +5,7 @@ Linux disk images, kernels and scripts for the Xiaomi Pad 6 tablet (codename: pi
 Download files [here](https://github.com/TheMojoMan/xiaomi-pipa/releases/download/Pipa-efi-multiboot/pipa-efi-multiboot.tar) , build instructions [here](https://github.com/TheMojoMan/xiaomi-pipa/blob/main/pipa-multiboot.md)
 
 # NEWS
+ - Added files and instructions for multiboot on pipa. Thanks to rmux for improving my initial instructions a lot!
  - 2025.05.06: Several people report about Ubuntu/Fedora not booting properly or working unreliably. Therefore, I mark these images now as **EXPERIMENTAL**. Might be kernel problems - unfortunately, it is unclear right now.
  - 2025.04.24: I have uploaded "Fedora 42" for pipa!  
    Install instructions (see below) apply accordingly i.e. you find the files in folder "2025.04.24-Fedora42" on my mega.nz page, root image name is "fedora-42-pipa.img.xz" and package manager in Fedora is "dnf" instead of "apt".  
