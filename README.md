@@ -2,7 +2,7 @@
 Linux disk images, kernels and scripts for the Xiaomi Pad 6 tablet (codename: pipa).
 
 # Multiboot for pipa
-Download files [here]() , build instructions [here]()
+Download files [here]() , build instructions [here](https://github.com/TheMojoMan/xiaomi-pipa/blob/main/pipa-multiboot.md)
 
 # NEWS
  - 2025.05.06: Several people report about Ubuntu/Fedora not booting properly or working unreliably. Therefore, I mark these images now as **EXPERIMENTAL**. Might be kernel problems - unfortunately, it is unclear right now.
