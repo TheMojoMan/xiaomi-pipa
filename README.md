@@ -4,6 +4,8 @@ Linux disk images, kernels and scripts for the Xiaomi Pad 6 tablet (codename: pi
 # Multiboot for pipa
 >**⚠️ Important:** Install your favorite Linux distro first!
 
+>**⚠️ Important:** Existing Ubuntu/Fedora users: Rename your `linux` partition to `ubuntu` / `fedora` first.
+
 Files [here](https://github.com/TheMojoMan/xiaomi-pipa/releases/download/Pipa-efi-multiboot/pipa-efi-multiboot.tar) , install instructions [here](https://github.com/TheMojoMan/xiaomi-pipa/blob/main/pipa-multiboot.md)
 
 # NEWS
@@ -51,6 +53,8 @@ Open a terminal:
 You might want to install some common apps:
  - Install Firefox browser: `sudo apt install firefox` (shortcut: `sai firefox`).
  - Install the Ubuntu app store: `sudo snap install snap-store` (shortcut: `ssi snap-store`).
+
+>You might also install **multiboot** which allows to switch between different distros at boot. See [here](https://github.com/TheMojoMan/xiaomi-pipa/edit/main/README.md#multiboot-for-pipa).
 
 ## Updates
 Kernel updates will be posted here because they are not hosted in Ubuntu's official repositories. You might join the dedicated telegram group to stay informed: t.me/pipa_mainline
