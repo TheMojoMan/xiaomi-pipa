@@ -77,6 +77,10 @@ sudo parted /dev/sde
 # Enter 'print' and look for boot_a and boot_b
 ```
 
+## Usage
+ - Use `Vol-down` and `Vol-up` keys to change between options.
+ - Use `Power` key to boot distro / reboot / shutdown.
+
 ## Creating Your Own EFI Files (UKIs)
 
 Use `systemd-ukify` to create Universal Kernel Images. The `--initrd` parameter is optional:
@@ -84,6 +88,7 @@ Use `systemd-ukify` to create Universal Kernel Images. The `--initrd` parameter 
 ```bash
 ukify build --linux <your_kernel> --devicetree=<your_dtb> --initrd=<your_initrd.img> --cmdline="<cmds_to_boot_your_linux_image>" -o <name_of_efi_file_that_will_be_created>
 ```
+> Depending on distribution you might find kernel and dtb files in `/boot` folder.
 
 ### Examples
 
@@ -104,9 +109,3 @@ ukify build --linux zImage --devicetree=dtb --initrd=initrd.img --cmdline="noqui
 ```bash
 ukify build --linux vmlinuz-6.12.0-sm8250-domin746826+ --devicetree=dtb-6.12.0-sm8250-domin746826+ --cmdline="noquiet loglevel=0 fbcon=rotate:1 root=PARTLABEL=ubuntu rw" -o ubuntu_6.12.0.efi
 ```
-
-## Distribution-Specific Notes
-
-- **Ubuntu users**: Change your partition name from 'linux' to 'ubuntu'
-- **Fedora users**: Change your partition name from 'linux' to 'fedora'  
-- **Custom setup**: Navigate to your `/boot` folder where you'll find kernel and dtb files. Use `root=PARTLABEL=linux` in cmdline to create an EFI file that boots from a partition named 'linux'
