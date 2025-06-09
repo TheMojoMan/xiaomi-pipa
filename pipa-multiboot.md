@@ -83,6 +83,8 @@ sudo parted /dev/sde
  - Use `Power` button to boot distro / reboot / shutdown.
  - **Return to Android**: Press `Vol-down` button 2-3 x __right after__ 'Mu-Qcom' image appears.
 
+![mu-qcom](https://github.com/TheMojoMan/xiaomi-pipa/blob/main/mu-qcom.jpg")
+
 ## Creating Your Own EFI Files (UKIs)
 
 Use `systemd-ukify` to create Universal Kernel Images. The `--initrd` parameter is optional:
