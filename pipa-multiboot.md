@@ -1,5 +1,7 @@
 # EFI Multiboot for Pipa
 
+![Usage](https://github.com/TheMojoMan/xiaomi-pipa/blob/main/pipa-efi-multiboot.mov)
+
 ## Installation
 
 1. **Extract the archive**  
