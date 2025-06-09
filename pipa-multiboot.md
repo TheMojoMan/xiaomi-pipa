@@ -79,11 +79,11 @@ sudo parted /dev/sde
 ```
 
 ## Usage
- - Use `Vol-down` and `Vol-up` buttons to change between options.
+ - Use `Vol-up` and `Vol-down` buttons to change between options.
  - Use `Power` button to boot distro / reboot / shutdown.
- - **Return to Android**: Press `Vol-down` button 2-3 x __right after__ 'Mu-Qcom' image appears.
 
-![mu-qcom](https://github.com/TheMojoMan/xiaomi-pipa/blob/main/mu-qcom.jpg")
+> **Return to Android**: Press `Vol-down` button 2-3 x __right after__ 'Mu-Qcom' image appears.  
+> <img src="https://github.com/TheMojoMan/xiaomi-pipa/blob/main/mu-qcom.jpg" width=100 />
 
 ## Creating Your Own EFI Files (UKIs)
 
