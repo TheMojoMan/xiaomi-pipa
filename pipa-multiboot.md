@@ -4,7 +4,8 @@
 
 ## Installation
 
-1. **Extract the archive**  
+1. **Extract the [archive](https://github.com/TheMojoMan/xiaomi-pipa/releases/download/Pipa-efi-multiboot/pipa-efi-multiboot.tar)**
+   
 Change into your Downloads folder and decompress 'pipa-efi-multiboot.tar':
 
 ```bash
@@ -78,8 +79,9 @@ sudo parted /dev/sde
 ```
 
 ## Usage
- - Use `Vol-down` and `Vol-up` keys to change between options.
- - Use `Power` key to boot distro / reboot / shutdown.
+ - Use `Vol-down` and `Vol-up` buttons to change between options.
+ - Use `Power` button to boot distro / reboot / shutdown.
+ - **Return to Android**: Press `Vol-down` button 2-3 x __right after__ 'Mu-Qcom' image appears.
 
 ## Creating Your Own EFI Files (UKIs)
 
