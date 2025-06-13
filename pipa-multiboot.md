@@ -4,7 +4,7 @@
 
 ## Installation (using Linux or Termux)
 
-Installation can be done from your tablet running **Linux** or from your rooted Android running **Termux**. Run `termux-setup-storage` in Termux for easy file access.
+Installation can be done from your tablet running **Linux** or from your rooted Android running **Termux**. Run `termux-setup-storage` first in Termux for easy file access.
 
 1. **Download and extract the [archive](https://github.com/TheMojoMan/xiaomi-pipa/releases/download/Pipa-efi-multiboot/pipa-efi-multiboot.tar)**
    
@@ -14,7 +14,7 @@ Change into your Downloads folder and decompress 'pipa-efi-multiboot.tar':
    # Linux
    cd Downloads && tar -xf pipa-efi-multiboot.tar
 
-   # termux
+   # Termux
    cd storage/downloads && tar -xf pipa-efi-multiboot.tar
 ```
 2. **Optional: Clean up unused files**  
@@ -31,14 +31,15 @@ If you have a small ESP partition, remove unneeded folders/files in EFI/. For ex
    # Linux
    mkdir tmp && sudo mount /dev/disk/by-partlabel/esp tmp
 
-   # termux
-   mkdir tmp && <to be done>
+   # Termux
+   mkdir tmp && sudo mount /dev/block/by-name/esp tmp
 ```
 
-4. **Copy EFI folder**  
+4. **Copy EFI folder and unmount esp**  
 
 ```bash
    sudo cp -r EFI tmp/
+   sudo umount tmp
 ```
 
 5. **Flash the boot image**  
@@ -61,18 +62,18 @@ sudo dd if=pipa_dualrole.img of=/dev/disk/by-partlabel/boot_a
 sudo dd if=pipa_dualrole.img of=/dev/disk/by-partlabel/boot_b
 ```
 
-### Flashing via termux
+### Flashing via Termux
 
 ```bash
 # Backup boot_a and boot_b, transfer to PC before flashing
-sudo dd if=<to be done>/boot_a of=boot_a_backup.img
-sudo dd if=<to be done>/boot_b of=boot_b_backup.img
+sudo dd if=/dev/block/by-name/boot_a of=boot_a_backup.img
+sudo dd if=/dev/block/by-name/boot_b of=boot_b_backup.img
 
 # For boot_a
-sudo dd if=pipa_dualrole.img of=<to be done>/boot_a
+sudo dd if=pipa_dualrole.img of=/dev/block/by-name/boot_a
 
 # For boot_b
-sudo dd if=pipa_dualrole.img of=<to be done>/boot_b
+sudo dd if=pipa_dualrole.img of=/dev/block/by-name/boot_b
 ```
 
 ### Flashing via USB
@@ -130,4 +131,4 @@ ukify build --linux vmlinuz-6.12.0-sm8250-domin746826+ --devicetree=dtb-6.12.0-s
 ## Thanks
  - The author of the Mu-Qcom efi boot loader.
  - [Timofey](https://github.com/timoxa0) for initial refind files/config for nabu which I adapted for pipa.
- - rmux and domin for improving readability and helpful improvements.
+ - rmux and domin746826 for improving readability and for helpful improvements.
