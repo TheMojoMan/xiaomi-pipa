@@ -2,9 +2,9 @@
 
 <img src="https://github.com/TheMojoMan/xiaomi-pipa/blob/main/pipa-efi-multiboot.jpg" width=300 />
 
-## Installation (using Linux or termux)
+## Installation (using Linux or Termux)
 
-Installation can be done from your tablet running **Linux** or from your rooted Android running **termux**.
+Installation can be done from your tablet running **Linux** or from your rooted Android running **Termux**. Run `termux-setup-storage` in Termux for easy file access.
 
 1. **Download and extract the [archive](https://github.com/TheMojoMan/xiaomi-pipa/releases/download/Pipa-efi-multiboot/pipa-efi-multiboot.tar)**
    
