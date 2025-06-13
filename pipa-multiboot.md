@@ -126,7 +126,7 @@ ukify build --linux vmlinuz-6.12.0-sm8250-domin746826+ --devicetree=dtb-6.12.0-s
 
 ## Troubleshooting
  - Linux distro does not boot / boots but is not functioning properly:  
-   This can be caused when your installed distro did a kernel update and kernel modules are changed. Please ask your distro provider for an updated .efi file which contains the matching kernel.
+   This can be caused when your installed distro did a kernel update and kernel modules are changed. Please ask your distro provider for an updated .efi file which contains the matching kernel. Mount your esp and copy the new .efi file to tmp/EFI/<your_distro_name> e.g. ˋsudo cp <updated.efi> tmp/EFI/archˋ or ˋsudo cp <updated.efi> tmp/EFI/ubuntuˋ.
 
 ## Thanks
  - The author of the Mu-Qcom efi boot loader.
